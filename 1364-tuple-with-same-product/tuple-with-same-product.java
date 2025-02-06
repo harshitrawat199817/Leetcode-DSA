@@ -13,7 +13,7 @@ class Solution {
             int freq = map.get(key);
             tuplesCount += (freq-1)*freq*4;
         }
-        System.out.print(map);
+        // System.out.print(map);
         return tuplesCount;
     }
 }
