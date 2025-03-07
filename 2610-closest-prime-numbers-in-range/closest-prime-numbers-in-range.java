@@ -19,12 +19,14 @@ class Solution {
                     num1 = first;
                     num2 = second;
                     min = second-first;
+                    if(min==2 || min==1) return new int[]{num1,num2};
                 }
+                
 
             }
         }
 
-        
+        // return isPrime;
         return new int[]{num1,num2};
     }
 
