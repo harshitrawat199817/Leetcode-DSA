@@ -1,7 +1,7 @@
 class Solution {
     public long repairCars(int[] ranks, int cars) {
         long min = 1;
-        long max = (long)ranks[0]*cars*cars;
+        long max = Long.MAX_VALUE;
         while(min<max){
             long mid = min+(max-min)/2;
             if(repairPossible(ranks, cars, mid)){
